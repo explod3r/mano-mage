@@ -1,0 +1,52 @@
+#contactFormCustom h2 {
+  display: none;
+}
+#contactFormCustom:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#contactFormCustom .fieldset .legend + .required {
+  margin: 0;
+}
+
+
+.footer .block-contact {
+  float: right;
+  width: 320px;
+  margin-bottom: 15px;
+}
+
+.footer .block-contact {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.footer .block-contact .custom-input-box {
+  padding-top: 3px !important;
+  float: left;
+  width: 75%;
+  padding-top: 0;
+}
+.footer .block-contact .input-text {
+  width: 100%;
+  border-right: 1;
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  -ms-border-radius: 2;
+  -o-border-radius: 2;
+  border-radius: 2;
+}
+
+.footer .buttons-set {
+  float: left;
+  margin-left: 0px !important;
+  min-width: 140px;
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  -ms-border-radius: 2;
+  -o-border-radius: 2;
+  border-radius: 2;
+}
+
+

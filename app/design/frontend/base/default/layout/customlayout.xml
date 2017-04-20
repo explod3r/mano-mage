@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.1">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <file>css/custom.css</file>
+            </action>
+        </reference>
+        <reference name="footer">
+            <remove name="footer.newsletter"/>
+            <block type="core/template" name="contactForm" template="custom/custom.phtml">
+                <!--<action method="addItem"><stylesheet>css/custom.css</stylesheet></action>-->
+            </block>
+        </reference>
+    </default>
+</layout>
