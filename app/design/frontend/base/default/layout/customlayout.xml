@@ -7,10 +7,14 @@
                 <file>css/custom.css</file>
             </action>
         </reference>
+        <reference name="header">
+            
+                <block type="core/teplate" name="workingHours" template="custom/custom_header.phtml" output="toHtml"/>
+            
+        </reference>
         <reference name="footer">
             <remove name="footer.newsletter"/>
-            <block type="core/template" name="contactForm" template="custom/custom.phtml">
-                <!--<action method="addItem"><stylesheet>css/custom.css</stylesheet></action>-->
+            <block type="core/template" name="contactFormCustom" template="custom/custom_footer.phtml">
             </block>
         </reference>
     </default>
