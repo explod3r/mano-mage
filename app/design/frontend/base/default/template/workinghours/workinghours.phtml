@@ -1,0 +1,11 @@
+<?php
+    $msg = $this->getWorkingHours();
+?>
+
+<div class="workinghours">
+    <?php if ($msg['status']): ?>
+    <p style="color: lawngreen; float: right; font-weight: bold"><?php echo $msg['text'] ?></p>
+    <?php else: ?>
+    <p style="color: red; float: right; font-weight: bold"><?php echo $msg['text'] ?></p>
+    <?php endif; ?>
+</div>

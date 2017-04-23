@@ -1,3 +1,4 @@
+
 #contactFormCustom h2 {
   display: none;
 }
@@ -28,6 +29,7 @@
   width: 75%;
   padding-top: 0;
 }
+
 .footer .block-contact .input-text {
   width: 100%;
   border-right: 1;
@@ -47,6 +49,10 @@
   -ms-border-radius: 2;
   -o-border-radius: 2;
   border-radius: 2;
+}
+
+.header-language-container .workinghours {
+    float: right !important;
 }
 
 

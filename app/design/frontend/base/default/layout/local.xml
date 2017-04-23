@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layout version="0.1.1">
+    <default>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/custom.css</stylesheet>
+            </action>
+        </reference>
+        
+        <reference name="header">
+            <remove name="welcome"/>
+            <block type="workinghours/workinghours" name="workinghours_workinghours" template="workinghours/workinghours.phtml"></block>
+        </reference>
+        
+        <reference name="footer">
+            <remove name="footer.newsletter"/>
+            <block type="core/template" name="contactFormCustom" template="footercontacts/footercontacts.phtml">
+            </block>
+        </reference>
+    </default>
+</layout>

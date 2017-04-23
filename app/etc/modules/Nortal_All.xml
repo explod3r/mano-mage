@@ -1,9 +1,8 @@
-<?xml version="1.0"?>
 <config>
     <modules>
-        <Mage_ProductLogUpdate>
+        <Nortal_Workinghours>
             <active>true</active>
             <codePool>local</codePool>
-        </Mage_ProductLogUpdate>
+        </Nortal_Workinghours>
     </modules>
 </config>

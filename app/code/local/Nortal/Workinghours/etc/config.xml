@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Nortal_Workinghours>
+      <version>1.0</version>
+    </Nortal_Workinghours>
+  </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <customlayout>
+                    <file>local.xml</file>
+                </customlayout>
+            </updates>
+        </layout>
+    </frontend>
+  <global>
+    <blocks>
+      <workinghours>
+        <class>Nortal_Workinghours_Block</class>
+      </workinghours>
+    </blocks>
+    <models>
+      <workinghours>
+        <class>Nortal_Workinghours_Model</class>
+      </workinghours>
+    </models>
+  </global>
+</config>
